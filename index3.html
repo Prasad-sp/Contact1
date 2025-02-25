@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .contact-section {
+            padding: 50px 0;
+        }
+        .contact-form, .whatsapp-form, .email-form, .google-form {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            
+        
+        
+        }
+        .social-icons img {
+            width: 40px;
+            margin-right: 15px;
+            transition: 0.3s;
+        }
+        .social-icons img:hover {
+            opacity: 0.7;
+        }
+        .whatsapp-form img, .email-form img, .google-form img {
+            width: 80px;
+            margin-bottom: 10px;
+        
+        }
+        .contact-options {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container contact-section">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Contact Us</h2>
+                <p>Feel free to reach out to us through the form below or via our contact details.</p>
+                <ul class="list-unstyled">
+                    <li><img src="C:\Users\Siva Prasad\Desktop\Contact 1\add.png" width="20"> <strong>Address:</strong> 456 New Street, New City, New Country</li>
+                    <li><img src="C:\Users\Siva Prasad\Desktop\Contact 1\phone.png" width="20"> <strong>Phone:</strong> +987 654 3210</li>
+                    <li><img src="C:\Users\Siva Prasad\Desktop\Contact 1\email.png" width="20"> <strong>Email:</strong> support@example.com</li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="f.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img src="i.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="t.png" alt="Twitter">
+                    </a>
+                </div>
+                <div>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093703!2d144.95373531531685!3d-37.81627974202195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1d7ab0f%3A0x5045675218ce6e0!2sMelbourne%2C%20Australia!5e0!3m2!1sen!2us!4v1632825241234!5m2!1sen!2us" 
+                        width="100%" 
+                        height="250" 
+                        style="border:0; border-radius: 10px;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4 whatsapp-form">
+                        <a href="https://wa.me/9876543210" target="_blank">
+                            <img src="C:\Users\Siva Prasad\Desktop\Contact 1\download.png" alt="WhatsApp">
+                        </a>
+                        <p class="mt-2">Send us a message through <strong>WhatsApp</strong> for quick responses! Click the WhatsApp icon above to chat with us directly.</p>
+                    </div>
+                    <div class="col-md-4 email-form">
+                        <a href="mailto:support@example.com">
+                            <img src="C:\Users\Siva Prasad\Desktop\Contact 1\mail.png" alt="Email">
+                        </a>
+                        <p class="mt-2">Reach out via <strong>Email</strong> for detailed inquiries! Click the email icon above to send us a message.</p>
+                    </div>
+                    <div class="col-md-4 google-form">
+                        <a href="https://forms.google.com" target="_blank">
+                            <img src="C:\Users\Siva Prasad\Desktop\Contact 1\form.png" alt="Google Form">
+                        </a>
+                        <p class="mt-2">Fill out our <strong>Google Form</strong> for additional queries! Click the icon above to access the form.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
